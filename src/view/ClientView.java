@@ -34,7 +34,7 @@ public class ClientView {
 	}
 	public void showListSV(ArrayList<SinhVien> listSV) {
 		
-		System.out.println("-------------DSSV--------------");
+		System.out.println("----------DSSV-----------");
 		for(SinhVien x: listSV) {
 			System.out.println(x.getMaSV()+"--"+x.getTenSV()+"--"+x.getEmail());
 		}
